@@ -18,7 +18,6 @@ const characterInfo3 = [
   { name: 'лучник', health: 80 },
 ];
 
-
 test('sorting characterInfo1', () => {
   expect(characterInfo1.sort(sorter)).toEqual(characterInfo1);
 });
